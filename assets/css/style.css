@@ -11,8 +11,8 @@ body {
     line-height: 1.6;
     background-color: #ffff;
     color: #333;
+    overflow-x:hidden;
 }
-
 /* Header Styling */
 .header {
     color: #fff;
@@ -24,6 +24,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x:hidden;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header__navbar-item-center {
@@ -608,7 +610,7 @@ body {
     margin: 64px 0 0;
     margin-top: 64px;
     padding-bottom: 60px;
-    background-image: url(/assets/img/shape-bg-9.svg);
+    background-image: url(./assets/img/shape-bg-9.svg);
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 1px solid #f1f1f1;
